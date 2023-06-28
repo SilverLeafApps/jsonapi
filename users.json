@@ -1,4 +1,5 @@
-[
+{
+  "users":[
     {
       "id": 1,
       "name": "SilverLeaf API 1",
@@ -18,3 +19,4 @@
       "email": "SL3@gmail.com"
     }
   ]
+}
