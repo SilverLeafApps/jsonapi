@@ -7,7 +7,9 @@ const port = process.env.PORT || 3009; //  chose port from here like 8080, 3001
 server.use(middlewares);
 server.use(router);
 
-server.listen(port);
+server.listen(port , ()=>{
+    console.log('json server is running on port# ' + port)
+})
 
 //NOTE :
 //once you run > npm start
